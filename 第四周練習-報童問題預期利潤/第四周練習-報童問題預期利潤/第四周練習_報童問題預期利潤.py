@@ -35,10 +35,8 @@ for q in range(N + 1):
                       p4*min(q,4) + p5*min(q,5) + p6*min(q,6) + 
                       p7*min(q,7) + p8*min(q,8))
     
-   
     current_profit = r * expected_sales - c * q
     
-   
     if current_profit > max_profit:
         max_profit = current_profit
         best_q = q
